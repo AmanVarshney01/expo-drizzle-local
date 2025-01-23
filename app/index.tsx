@@ -6,8 +6,6 @@ import { useLiveQuery } from "drizzle-orm/expo-sqlite";
 import { db } from "~/db";
 import { users } from "~/db/schema";
 
-const GITHUB_AVATAR_URI = "https://avatars.githubusercontent.com/u/45312299";
-
 export default function Screen() {
   const { data } = useLiveQuery(
     db.query.users.findFirst({

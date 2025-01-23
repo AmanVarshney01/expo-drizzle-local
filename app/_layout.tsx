@@ -12,15 +12,14 @@ import { useDrizzleStudio } from "expo-drizzle-studio-plugin";
 import { Stack } from "expo-router";
 import { openDatabaseSync } from "expo-sqlite";
 import { StatusBar } from "expo-status-bar";
+import { useEffect, useLayoutEffect, useRef, useState } from "react";
 import { Platform, View } from "react-native";
-import { ThemeToggle } from "~/components/ThemeToggle";
 import { Text } from "~/components/ui/text";
+import { db } from "~/db";
+import migrations from "~/drizzle/migrations";
 import { setAndroidNavigationBar } from "~/lib/android-navigation-bar";
 import { DATABASE_NAME, NAV_THEME } from "~/lib/constants";
 import { useColorScheme } from "~/lib/useColorScheme";
-import { db } from "~/db";
-import migrations from "~/drizzle/migrations";
-import { useEffect, useLayoutEffect, useRef, useState } from "react";
 
 const localDb = openDatabaseSync(DATABASE_NAME);
 
