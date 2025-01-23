@@ -85,7 +85,7 @@ export default function RootLayout() {
         <Stack.Screen
           name="index"
           options={{
-            title: "Log My Time",
+            title: "Expo Drizzle Local",
             // headerRight: () => <ThemeToggle />,
           }}
         />

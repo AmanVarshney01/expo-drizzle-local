@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "LogMyTime",
-    "slug": "LogMyTime",
+    "name": "expo-drizzle-local",
+    "slug": "expo-drizzle-local",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -16,14 +16,14 @@
     "assetBundlePatterns": ["**/*"],
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.amanvarshney11.LogMyTime"
+      "bundleIdentifier": "com.amanvarshney11.expo-drizzle-local"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "package": "com.amanvarshney11.LogMyTime"
+      "package": "com.amanvarshney11.expo-drizzle-local"
     },
     "web": {
       "bundler": "metro",
