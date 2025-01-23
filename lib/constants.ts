@@ -17,4 +17,4 @@ export const NAV_THEME = {
   },
 };
 
-export const DATABASE_NAME = "log-my-time.db";
+export const DATABASE_NAME = "local.db";
