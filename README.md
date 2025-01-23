@@ -1,16 +1,50 @@
-# Starter base
 
-A starting point to help you set up your project quickly and use the common components provided by `react-native-reusables`. The idea is to make it easier for you to get started.
+# Expo Drizzle Local Template
+
+A modern React Native template featuring Expo (v52), NativeWind, React Native Reusables, Drizzle ORM, and Expo SQLite for local database management.
 
 ## Features
 
-- NativeWind v4
-- Dark and light mode
-  - Android Navigation Bar matches mode
-  - Persistent mode
-- Common components
-  - ThemeToggle, Avatar, Button, Card, Progress, Text, Tooltip
+- 📱 [Expo](https://expo.dev/) v52
+- 💨 [NativeWind](https://www.nativewind.dev/) v4 (TailwindCSS for React Native)
+- 🎯 [React Native Reusables](https://rnr-docs.vercel.app/) - Pre-built UI components
+- 🗄️ [Drizzle ORM](https://orm.drizzle.team/) - Type-safe ORM
+- 📦 Expo SQLite - Local database management
+- ⚡ Expo Router for file-based routing
+- 🎨 Tailwind CSS configuration with animations
 
-<img src="https://github.com/mrzachnugent/react-native-reusables/assets/63797719/42c94108-38a7-498b-9c70-18640420f1bc"
-     alt="starter-base-template"
-     style="width:270px;" />
+## Quick Start
+
+Use degit to clone this template:
+
+```bash
+npx degit amanvarshney01/expo-drizzle-local my-app
+cd my-app
+```
+
+Install dependencies:
+
+```bash
+bun install
+```
+
+Start the development server:
+
+```bash
+bun run dev        # Start Expo development server
+bun run dev:web    # Start web development server
+bun run dev:android # Start Android development server
+```
+
+## Scripts
+
+- `npm run dev` - Start Expo development server
+- `npm run android` - Run on Android
+- `npm run ios` - Run on iOS
+- `npm run web` - Run on web
+- `npm run clean` - Clean project files
+- `npm run lint` - Lint code
+- `npm run format` - Format code
+- `npm run build:dev` - Build development bundle
+- `npm run build:preview` - Build preview bundle
+- `npm run build:prod` - Build production bundle
